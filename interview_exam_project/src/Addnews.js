@@ -4,13 +4,7 @@ import './css/CssContact.css';
 
 
 export default class Addnews extends Component {
-    constructor() {
-	    super();
-	    this.state = { 
-	      msgs: [], 
-	      currentMsg: " ",
-	    };
-	}
+    
 	handleClickSubmit = () => {
         var msg = this.state.currentMsg.trim()
 		if (msg.length > 0) {	
