@@ -1,0 +1,106 @@
+
+.CssContact-header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Maitree', serif;
+}
+.CssContact-content {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    /*display: flex;*/
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    color: rgb(12, 1, 1);
+}
+
+
+.CssContact-text {
+    background-color: LightGray;
+    color: rgb(12, 1, 1);
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+#table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#table tr:nth-child(even){background-color: #f2f2f2;}
+  
+#table tr:hover {background-color: #ddd;}
+  
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: LightGray;
+    color: black;
+}
+
+
+.container {
+    display: grid;
+    border: 2px dotted gray;
+    grid-auto-rows: minmax(5vh, auto);
+    
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    /*text-align: center;*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: LightGray; 
+    color: black; 
+    border: 2px solid gray;
+}
+.button1:hover {
+    background-color: gray;
+    color: LightGray;
+  }
+
+.div1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+   /* border-radius: 4px; */
+    /*box-sizing: border-box;*/
+}
+.textarea{
+    border: 1px solid #ccc;
+    width: 95%;
+    height: 95%;
+     
+}
+
+
