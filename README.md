@@ -1,1 +1,0 @@
-# Gaitame---Interview-Exam-Project
